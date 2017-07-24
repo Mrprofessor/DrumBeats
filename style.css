@@ -1,0 +1,54 @@
+html {
+	background-color: black;
+	color: #0a0;
+	/*font-size: 10px;*/
+	/*font-weight: bold;*/
+}
+body,html {
+	width: 100%;
+	font-family: Consolas, Menlo, Monaco, Lucida Console, Courier New, Courier, monospaced;
+	padding: 0;
+	margin: 0;
+}
+h1{
+	display: flex;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	font-size: 4rem;
+}
+.keys {
+	display: flex;
+	flex: 1;
+	min-height: 60vh;
+	align-items: center;
+	justify-content: center;
+}
+.key {
+	border: .2em solid #0a0;
+	border-radius: .5em;
+	margin: 1em;
+	font-size: 1.5em;
+	padding: 1em .5em;
+	width: 10rem;
+	text-align: center;
+	background: rgba(0,0,0,0.4);
+	text-shadow: 0 0 .5rem black;
+	transition: all .07s ease;
+}
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
